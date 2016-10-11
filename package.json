@@ -1,7 +1,7 @@
 {
-  "name": "deep-clone-js",
+  "name": "deep-clone-json",
   "version": "1.0.0",
-  "description": "Clone javascript object/array",
+  "description": "Clone JSON Object",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && npm run test",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ericchanky@github.com/ericchanky/deep-clone-js.git"
+    "url": "git+https://ericchanky@github.com/ericchanky/deep-clone-json.git"
   },
   "author": "EricChanKY",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ericchanky/deep-clone-js/issues"
+    "url": "https://github.com/ericchanky/deep-clone-json/issues"
   },
-  "homepage": "https://github.com/ericchanky/deep-clone-js#readme",
+  "homepage": "https://github.com/ericchanky/deep-clone-json#readme",
   "dependencies": {
     "coffee-script": "^1.11.1",
     "mocha": "^3.1.2",
