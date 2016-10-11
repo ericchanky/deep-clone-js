@@ -4,7 +4,10 @@
   "description": "Clone javascript object/array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && npm run test",
+    "build": "coffee -c index.coffee",
+    "postbuild": "uglifyjs --compress --mangle -o index.min.js -- index.js",
+    "test": "mocha --compilers coffee:coffee-script/register test.coffee"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/ericchanky/deep-clone-js/issues"
   },
-  "homepage": "https://github.com/ericchanky/deep-clone-js#readme"
+  "homepage": "https://github.com/ericchanky/deep-clone-js#readme",
+  "dependencies": {
+    "coffee-script": "^1.11.1",
+    "mocha": "^3.1.2",
+    "uglify-js": "^2.7.3"
+  }
 }
