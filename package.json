@@ -1,0 +1,19 @@
+{
+  "name": "deep-clone-js",
+  "version": "1.0.0",
+  "description": "Clone javascript object/array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ericchanky@github.com/ericchanky/deep-clone-js.git"
+  },
+  "author": "EricChanKY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericchanky/deep-clone-js/issues"
+  },
+  "homepage": "https://github.com/ericchanky/deep-clone-js#readme"
+}
