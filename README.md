@@ -5,7 +5,7 @@ credit to [http://stackoverflow.com/a/28222333/6056725](http://stackoverflow.com
 
 ## Installation
 ```
-npm install -S https://github.com/ericchanky/deep-clone-json#v1.0.0
+npm install -S github:ericchanky/deep-clone-json#v1.0.0
 ```
 
 ## Usage
