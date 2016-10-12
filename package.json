@@ -1,12 +1,12 @@
 {
   "name": "deep-clone-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Clone JSON Object",
-  "main": "index.js",
+  "main": "deep-clone.js",
   "scripts": {
-    "start": "npm run build && npm run test",
-    "build": "coffee -c index.coffee",
-    "postbuild": "uglifyjs --compress --mangle -o index.min.js -- index.js",
+    "start": "npm run build && npm test",
+    "build": "coffee -c deep-clone.coffee",
+    "postbuild": "uglifyjs --compress --mangle -o deep-clone.min.js -- deep-clone.js",
     "test": "mocha --compilers coffee:coffee-script/register test.coffee"
   },
   "repository": {
